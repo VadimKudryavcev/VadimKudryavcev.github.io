@@ -2,9 +2,9 @@
 	const leftButton = document.querySelector('#left-btn')
 	const rightButton = document.querySelector('#right-btn')
 	const image = document.getElementById('image-box')
-	image.src = 'img/image (1).jpg'
 
 	let index = 1
+	setImage(index)
 
 	leftButton.addEventListener('click', swipeLeft)
 	rightButton.addEventListener('click', swipeRight)
@@ -16,7 +16,7 @@
 		else {
 			index = 6
 		}
-		image.src = `img/image (${index}).jpg`
+		setImage(index)
 	};
 
 	function swipeRight() {
@@ -26,6 +26,10 @@
 		else {
 			index = 1
 		}
-		image.src = `img/image (${index}).jpg`
+		setImage(index)
 	};
+
+	function setImage(index) {
+		image.src = `img/image (${index}).jpg`
+	}
 })();
