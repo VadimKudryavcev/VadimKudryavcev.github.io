@@ -1,0 +1,38 @@
+body {
+	background: #FFFFFF;
+}
+
+.outer-box {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#image-box {
+	height: 80vh;
+	width: 130vh;
+	border-style: solid;
+	border-radius: 25px;
+	border-color: #696969;
+	object-fit: cover;
+}
+
+.btn {
+	border-style: solid;
+	box-shadow: none;
+	border-color: #696969;
+	background-color: transparent;
+	color: #696969;
+	font-style: monospace;
+	font-size: 30px;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	margin: 10px;
+}
+
+.btn:hover {
+	background-color: #696969;
+	color: #FFFFFF;
+}
