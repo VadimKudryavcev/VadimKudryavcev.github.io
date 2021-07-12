@@ -11,7 +11,7 @@ body {
 
 #image-box {
 	height: 80vh;
-	width: 130vh;
+	width: 70%;
 	border-style: solid;
 	border-width: 0.3vh;
 	border-radius: 5vh;
@@ -36,11 +36,11 @@ body {
 }
 
 #left-btn {
-	margin-right: 150vh;
+	margin-right: 85%;
 }
 
 #right-btn {
-	margin-left: 150vh;
+	margin-left: 85%;
 }
 
 .btn:hover {
