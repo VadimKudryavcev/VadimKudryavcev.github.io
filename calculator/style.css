@@ -17,14 +17,27 @@ body {
 	justify-content: start;
 }
 
-.window {
-	height: 100px;
-	width: 99%;
+.window-box {
 	border-style: solid;
 	background: #1f1f1f;
 	color: white;
 	font-family: 'Space Mono', monospace;
+}
+
+.window {
+	height: 70px;
+	width: 100%;
+	background: inherit;
+	color: inherit;
+	font-family: inherit;
+	border: none;
 	font-size: 60px;
+	outline: none;
+}
+
+.history {
+	margin: 0;
+	font-size: 20px;
 }
 
 .btn, .clear-btn, .equal-btn {
