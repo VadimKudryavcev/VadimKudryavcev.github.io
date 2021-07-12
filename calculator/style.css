@@ -33,6 +33,7 @@ body {
 	font-family: 'Space Mono', monospace;
 	font-size: 60px;
 	border-style: solid;
+	transition: all 0.5s;
 }
 
 .btn:hover, .clear-btn:hover, .equal-btn:hover {
