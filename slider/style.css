@@ -3,7 +3,7 @@ body {
 }
 
 .outer-box {
-	margin-top: 50px;
+	margin-top: 10vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -13,23 +13,34 @@ body {
 	height: 80vh;
 	width: 130vh;
 	border-style: solid;
-	border-radius: 25px;
+	border-width: 0.3vh;
+	border-radius: 5vh;
 	border-color: #696969;
 	object-fit: cover;
+	position: relative;
 }
 
 .btn {
 	border-style: solid;
+	border-width: 0.3vh;
 	box-shadow: none;
 	border-color: #696969;
 	background-color: transparent;
 	color: #696969;
 	font-style: monospace;
-	font-size: 30px;
-	height: 50px;
-	width: 50px;
-	border-radius: 25px;
-	margin: 10px;
+	font-size: 5vh;
+	height: 10vh;
+	width: 10vh;
+	border-radius: 5vh;
+	position: absolute;
+}
+
+#left-btn {
+	margin-right: 150vh;
+}
+
+#right-btn {
+	margin-left: 150vh;
 }
 
 .btn:hover {
