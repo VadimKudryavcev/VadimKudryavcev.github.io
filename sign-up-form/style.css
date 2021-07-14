@@ -59,8 +59,10 @@ input {
 }
 
 hr {
-	border-color: #7FFFD4;
-	height: 0;
+	border: none;
+    background: #7FFFD4;
+	height: 1px;
+    width: 400px;
 }
 
 form {
